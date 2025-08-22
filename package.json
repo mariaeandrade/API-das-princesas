@@ -1,0 +1,24 @@
+{
+  "name": "api-princesas",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cls & nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "backend",
+    "princesas",
+    "nodemon",
+    "serverjs"
+  ],
+  "author": "Maria Andrade",
+  "license": "MIT",
+  "description": "Get Princesas Disney",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
